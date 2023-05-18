@@ -1,4 +1,4 @@
-InputFilePath = "DataQualityInput5.txt"
+InputFilePath = "DataQualityInput4.txt"
 
 ifh = open(InputFilePath, "r")
 List = []
