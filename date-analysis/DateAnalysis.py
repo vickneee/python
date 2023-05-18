@@ -62,4 +62,3 @@ InsertTr(ofh, "td", "%A", "Weekday, full version", WeekDF)
 InsertTr(ofh, "td", "%w", "Weekday as a number 0-6, 0 is Sunday", WeekDN)
 ofh.write(tableE)
 ofh.write(htmle)
-# Loppu
