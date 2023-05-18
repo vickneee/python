@@ -46,6 +46,6 @@ while True:
             except ValueError:
                 continue
             area = mF.Area(shape=choice, radius=radius)
-            print(f"{'The area is: ':12} {area:.2f}")
+            print(f"{'The area is:':12} {area:.2f}")
         else:
             print("Unknown shape!")
