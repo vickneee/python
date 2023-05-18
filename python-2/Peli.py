@@ -1,6 +1,6 @@
 from random import randint
 VoittoLuku = randint(1, 20)
-print(VoittoLuku)
+# print(VoittoLuku)
 # quit()
 
 # input tarkistus
