@@ -1,15 +1,15 @@
 body {
-    font-family: "Comic Sans MS", sans-serif;
-    color: blue;
-    font-size: 18px;
+    font-family: "Monospaced", sans-serif;
+    color: #222;
+    font-size: 22px;
     font-weight: bold;
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 900px;
-    padding: 5px 2px;
+    width: 60rem;
+    padding: 5px 5px;
 }
 
 th {
@@ -18,5 +18,5 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #D6EEEE;
+    background-color: #cbb6d3;
 }
