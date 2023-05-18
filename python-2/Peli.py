@@ -5,13 +5,13 @@ print(VoittoLuku)
 
 # input tarkistus
 while True:
-    Lkm = input("Anna arvauksen lukumäärä (1-3): ")
+    Lkm = input("Anna arvauksen lukumäärä (1-5): ")
     try:
         Lkm = int(Lkm)
     except ValueError as e:
         print(e)
         continue
-    if (Lkm >= 1) and (Lkm <= 3):
+    if (Lkm >= 1) and (Lkm <= 5):
         break
     else:
         continue
