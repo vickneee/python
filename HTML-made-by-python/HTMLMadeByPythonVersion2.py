@@ -42,5 +42,10 @@ html3 = trs + tds + finland + tds + helsinki + tde + tre + trs + tds + france + 
 html4 = tablee + h1s + taulujen + h1e + bodye + htmle
 html = html1 + html2 + html3 + html4
 
-print(html)
+# print(html)
+
+with open("TableOfCountries2.html", "w") as file:
+    file.write(html)
+
+print("HTML file generated: TableOfCountries2.html")
 
