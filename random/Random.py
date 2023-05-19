@@ -13,7 +13,7 @@ print(RandomList)
 # ifh Input File Handler
 # ofh Output File Handler
 
-OutputFilePath = "DataQualityInput.txt"
+OutputFilePath = "RandomNumbers.txt"
 ofh = open(OutputFilePath, "w")
 for n in RandomList:
     if n is None:
