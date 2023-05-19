@@ -1,6 +1,7 @@
 html_code = """<!DOCTYPE html>
 <html lang='fi'>
 <head>
+    <meta charset="UTF-8"/>
     <title>Taulukko</title>
     <style>
         body {
@@ -29,8 +30,8 @@ html_code = """<!DOCTYPE html>
     <table>
         <thead>
             <tr>
-                <th>Country</th>
-                <th>Capital</th>
+                <th>Maa</th>
+                <th>Pääkaupunki</th>
             </tr>
         </thead>
         <tbody>
