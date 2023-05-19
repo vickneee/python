@@ -52,12 +52,12 @@ html_code = """<!DOCTYPE html>
             </tr>
         </tbody>
     </table>
-    <h1>Taulujen viivat helpottavat taulun hahmottamista.</h1>
+    <h2>Taulujen viivat helpottavat taulun hahmottamista.</h2>
 </body>
 </html>
 """
 
-with open("index.html", "w") as file:
+with open("TableOfCountries-1.html", "w") as file:
     file.write(html_code)
 
-print("HTML file generated: index.html")
+print("HTML file generated: TableOfCountries-1.html")
