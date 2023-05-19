@@ -32,14 +32,16 @@ france = "France"
 paris = "Paris"
 tbodye = "\t</tbody>\n"
 tablee = "</table>\n"
+h2s = "<h2>"
 taulujen = "Taulujen viivat helpottavat taulun hahmottamista."
+h2e = "</h2>"
 bodye = "</body>\n"
 htmle = "</html>"
 
 html1 = doctype + htmls + heads + titles + toc + titlee + styles + CSS1 + CSS2 + CSS3 + stylee + heade + bodys + h1s
 html2 = htmlpy + h1e + tables + theads + trs + ths + country + thee + ths + capital + thee + tre + theade + tbodys
 html3 = trs + tds + finland + tde + tds + helsinki + tde + tre + trs + tds + france + tde + tds + paris + tde
-html4 = tre + tbodye + tablee + h1s + taulujen + h1e + bodye + htmle
+html4 = tre + tbodye + tablee + h2s + taulujen + h2e + bodye + htmle
 html = html1 + html2 + html3 + html4
 
 # print(html)

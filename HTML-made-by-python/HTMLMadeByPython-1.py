@@ -34,7 +34,7 @@ html_code = """<!DOCTYPE html>
             </tr>
         </tbody>
     </table>
-    <h1>Taulujen viivat helpottavat taulun hahmottamista.</h1>
+    <h2>Taulujen viivat helpottavat taulun hahmottamista.</h2>
 </body>
 </html>
 """
