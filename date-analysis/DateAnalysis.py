@@ -32,6 +32,7 @@ DayOfMonth = str(d.strftime("%d"))
 h = "DateAnalysis for " + str(d)
 h_f = f"{h:^75}"  # ^ = Centered ###!!!!
 dashline = f'{"-"*75}'
+
 # writing to display
 print()
 print(dashline)
