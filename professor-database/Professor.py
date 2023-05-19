@@ -6,8 +6,7 @@ mydb = mysql.connector.connect(
 	host="localhost",
 	user="BigData",
 	password="BigData123,",
-	database="BigData"
-)
+	database="BigData")
 
 # Tenure = vakinainen virka
 # Assistant Prof = Apulaisprofessori
@@ -28,7 +27,6 @@ for p in Professor:
 	else:
 		p['Tenured'] = 'N'
 pprint(Professor)
-
 
 mycursor = mydb.cursor()
 sql = "truncate Professor"
