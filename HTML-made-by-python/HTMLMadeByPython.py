@@ -1,5 +1,4 @@
-html_code = """
-<!DOCTYPE html>
+html_code = """<!DOCTYPE html>
 <html lang='fi'>
 <head>
     <title>TableOfCountries</title>
