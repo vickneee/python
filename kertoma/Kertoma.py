@@ -1,4 +1,4 @@
-# Victoria Vavulina
+# Victoria V
 while True:
     luku = int(input("Anna luku: "))
     if luku < 0 or luku > 10:
