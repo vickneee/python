@@ -44,7 +44,7 @@ html = html1 + html2 + html3 + html4
 
 # print(html)
 
-with open("TableOfCountries2.html", "w") as file:
+with open("TableOfCountries-2.html", "w") as file:
     file.write(html)
 
-print("HTML file generated: TableOfCountries2.html")
+print("HTML file generated: TableOfCountries-2.html")

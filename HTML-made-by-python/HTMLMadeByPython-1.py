@@ -39,7 +39,7 @@ html_code = """<!DOCTYPE html>
 </html>
 """
 
-with open("TableOfCountries.html", "w") as file:
+with open("TableOfCountries-1.html", "w") as file:
     file.write(html_code)
 
-print("HTML file generated: TableOfCountries.html")
+print("HTML file generated: TableOfCountries-1.html")
