@@ -1,6 +1,6 @@
 # Victoria V
 while True:
-    luku = int(input("Anna luku: "))
+    luku = int(input("Anna luku väliltä 0-10: "))
     if luku < 0 or luku > 10:
         break
     laske = 1
@@ -11,4 +11,4 @@ while True:
     print(f"Luvun {luku} kertoma on {kertoma}.")
     
     
-print(123 + 0.0)
+print("Luku ei ollut väliltä 0-10!")
