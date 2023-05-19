@@ -48,4 +48,3 @@ with open("TableOfCountries2.html", "w") as file:
     file.write(html)
 
 print("HTML file generated: TableOfCountries2.html")
-
