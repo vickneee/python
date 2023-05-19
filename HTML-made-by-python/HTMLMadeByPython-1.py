@@ -1,10 +1,20 @@
 html_code = """<!DOCTYPE html>
 <html lang='fi'>
 <head>
-    <title>TableOfCountries</title>
+    <title>Taulukko</title>
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 100px;
+            background-color: beige;
+        }
         table, th, td {
             border: 1px solid black;
+        }
+        thead {
+            background-color: #c4b0b0;
         }
         th, td {
             padding: 20px;
@@ -28,18 +38,26 @@ html_code = """<!DOCTYPE html>
                 <td>Finland</td>
                 <td>Helsinki</td>
             </tr>
+             <tr>
+                <td>Estonia</td>
+                <td>Tallinn</td>
+            </tr>
+             <tr>
+                <td>Latvia</td>
+                <td>Riga</td>
+            </tr>
             <tr>
-                <td>France</td>
-                <td>Paris</td>
+                <td>Lithuania</td>
+                <td>Vilnius</td>
             </tr>
         </tbody>
     </table>
-    <h2>Taulujen viivat helpottavat taulun hahmottamista.</h2>
+    <h1>Taulujen viivat helpottavat taulun hahmottamista.</h1>
 </body>
 </html>
 """
 
-with open("TableOfCountries-1.html", "w") as file:
+with open("index.html", "w") as file:
     file.write(html_code)
 
-print("HTML file generated: TableOfCountries-1.html")
+print("HTML file generated: index.html")
