@@ -30,7 +30,7 @@ In the project directory, you can run:
 
 	python3 DateAnalysis.py
 	
-You will see the results in your terminal. 
+The results will be displayed on your terminal. 
 
 <img width="831" alt="Screenshot 2023-06-02 at 18 08 10" src="https://github.com/vickneee/python/assets/93821265/4cd6cc98-ce21-4be7-881d-f1f7819098f4">
 	
