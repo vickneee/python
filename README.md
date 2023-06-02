@@ -40,7 +40,7 @@ After that, you can open the DateAnlysis.html file in your browser.
 
 ## professor-database
 	
-In the MySQL, you can create Professor table:
+In the MySQL Workbench, you can create Professor table:
 
 <img width="1100" alt="Screenshot 2023-06-02 at 18 27 13" src="https://github.com/vickneee/python/assets/93821265/aa1210ca-92c7-4637-ba21-12b79a0c1cae">
 
@@ -56,7 +56,7 @@ The results will be displayed on your terminal.
 
 <img width="562" alt="Screenshot 2023-06-02 at 18 38 16" src="https://github.com/vickneee/python/assets/93821265/aa4ebd71-bcd0-42b5-b60d-c7fbc096fedd">
 
-In the MySQL, you can run query:
+In the MySQL Workbench, you can run query:
 
 	select * 
 	from professor;
