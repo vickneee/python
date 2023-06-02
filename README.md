@@ -32,6 +32,6 @@ In the project directory, you can run:
 	
 In the terminal you will see: 
 
-<img width="829" alt="Screenshot 2023-06-02 at 17 54 31" src="https://github.com/vickneee/python/assets/93821265/371eb870-52ae-4742-9e3a-3b2cee5f13b6">
+<img width="831" alt="Screenshot 2023-06-02 at 18 08 10" src="https://github.com/vickneee/python/assets/93821265/4cd6cc98-ce21-4be7-881d-f1f7819098f4">
 	
 After that, you can open the DateAnlysis.html file in your browser.
