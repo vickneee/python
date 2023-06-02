@@ -56,11 +56,11 @@ The results will be displayed on your terminal.
 
 <img width="562" alt="Screenshot 2023-06-02 at 18 38 16" src="https://github.com/vickneee/python/assets/93821265/aa4ebd71-bcd0-42b5-b60d-c7fbc096fedd">
 
-In the MySQL Workbench, you can run query:
+Run the following query in the MySQL Workbench:
 
 	select * 
 	from professor;
 	
-The results will be displayed in MySQL. 
+The results will be displayed in MySQL Workbench. 
 
 <img width="1097" alt="Screenshot 2023-06-02 at 18 41 14" src="https://github.com/vickneee/python/assets/93821265/bbc12312-0c3b-4c4d-b221-1e7bd2f53751">
