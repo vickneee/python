@@ -1,11 +1,11 @@
-Pid	Name	Title	Years
-1	Mary	Assistant Prof	3
-2	James	Assistant Prof	7
-3	Bill	Professor	2
-4	John	Associate Prof	7
-5	Mark	Assistant Prof	6
-6	Annie	Associate Prof	3
-7	Tom	    Assistant Prof	2
-8	Lisa	Associate Prof	7
-9	Jack	Professor	5
-10	Ann	    Assistant Prof	7
+Pid	Name	Title	          Years
+1	  Mary	Assistant Prof	3
+2	  James	Assistant Prof	7
+3	  Bill	Professor	      2
+4	  John	Associate Prof	7
+5	  Mark	Assistant Prof	6
+6	  Annie	Associate Prof	3
+7	  Tom	  Assistant Prof	2
+8	  Lisa	Associate Prof	7
+9	  Jack	Professor	      5
+10  Ann	  Assistant Prof	7
