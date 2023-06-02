@@ -10,7 +10,7 @@ After the installation, you can verify in the command prompt the installed versi
 
 	python --version
  
- If you are Mac user, then you can verify in the terminal macOS version:
+ If you are Mac user, then you can verify in the terminal the macOS installed version:
  
  	python3 --version
 
