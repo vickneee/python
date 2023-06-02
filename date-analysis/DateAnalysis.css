@@ -3,6 +3,12 @@ body {
     color: #222;
     font-size: 22px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f3;
 }
 
 table, th, td {
@@ -10,11 +16,11 @@ table, th, td {
     border-collapse: collapse;
     width: 60rem;
     padding: 5px 5px;
+    font-size: 1.5rem;
 }
 
-th {
-    width: 300px;
-    colspan: 3;
+tr {
+    height: 2.5rem;
 }
 
 tr:nth-child(even) {
