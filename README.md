@@ -39,12 +39,15 @@ After that, you can open the DateAnlysis.html file in your browser.
 <img width="1331" alt="Screenshot 2023-06-02 at 18 09 44" src="https://github.com/vickneee/python/assets/93821265/df71936d-a296-402b-9281-aac566eaa1d3">
 
 ## professor-database
-
-In the project directory, you can run:
-
-	python3 Professor.py
 	
 In the MySQL, you can create Professor table:
 
 <img width="1100" alt="Screenshot 2023-06-02 at 18 27 13" src="https://github.com/vickneee/python/assets/93821265/aa1210ca-92c7-4637-ba21-12b79a0c1cae">
 
+In the project directory, you should have Professor.txt file with correct indentations:
+
+<img width="756" alt="Screenshot 2023-06-02 at 18 35 31" src="https://github.com/vickneee/python/assets/93821265/cb52e475-d9d0-488d-b3ad-72c90e817f58">
+
+In the project directory, you can run:
+
+	python3 Professor.py
