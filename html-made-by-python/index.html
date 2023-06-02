@@ -1,4 +1,4 @@
-html_code = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang='fi'>
 <head>
     <meta charset="UTF-8"/>
@@ -9,19 +9,22 @@ html_code = """<!DOCTYPE html>
             flex-direction: column;
             align-items: center;
             margin: 100px;
-            background-color: beige;
+            background-color: #dedede;
         }
         table, th, td {
             border: 1px solid black;
         }
-        thead {
-            background-color: #c4b0b0;
-        }
         th, td {
             padding: 20px;
+            background-color: #ffffff;
+        }
+        .thead {
+            background-color: #708090;
+            color: #ffffff;
+            font-size: 20px;
         }
         table {
-            width: 800px;
+            width: 700px;
         }
     </style>
 </head>
@@ -29,9 +32,9 @@ html_code = """<!DOCTYPE html>
     <h1>HTML sivu on tehty kokonaan Pythonilla!</h1>
     <table>
         <thead>
-            <tr>
-                <th>Maa</th>
-                <th>Pääkaupunki</th>
+            <tr class="thead">
+                <th class="thead">Maa</th>
+                <th class="thead">Pääkaupunki</th>
             </tr>
         </thead>
         <tbody>
@@ -56,9 +59,3 @@ html_code = """<!DOCTYPE html>
     <h2>Taulujen viivat helpottavat taulun hahmottamista.</h2>
 </body>
 </html>
-"""
-
-with open("TableOfCountries-1.html", "w") as file:
-    file.write(html_code)
-
-print("HTML file generated: TableOfCountries-1.html")

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html_code = """<!DOCTYPE html>
 <html lang='fi'>
 <head>
     <meta charset="UTF-8"/>
@@ -9,26 +9,29 @@
             flex-direction: column;
             align-items: center;
             margin: 100px;
-            background-color: beige;
+            background-color: #dedede;
         }
         table, th, td {
             border: 1px solid black;
         }
-        thead {
-            background-color: #c4b0b0;
-        }
         th, td {
             padding: 20px;
+            background: #ffffff
+        }
+        .thead {
+            background-color: #708090;
+            color: #ffffff;
+            font-size: 20px;
         }
         table {
-            width: 800px;
+            width: 700px;
         }
     </style>
 </head>
 <body>
     <h1>HTML sivu on tehty kokonaan Pythonilla!</h1>
     <table>
-        <thead>
+        <thead class="thead">
             <tr>
                 <th>Maa</th>
                 <th>Pääkaupunki</th>
@@ -56,3 +59,9 @@
     <h2>Taulujen viivat helpottavat taulun hahmottamista.</h2>
 </body>
 </html>
+"""
+
+with open("index.html", "w") as file:
+    file.write(html_code)
+
+print("HTML file generated: index.html")
