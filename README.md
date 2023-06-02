@@ -10,9 +10,9 @@ After the installation, you can verify in the terminal the installed version:
 
 	python --version
  
- or in MacOS
+ Or MacOS version:
  
- python3 --version
+ 	python3 --version
 
 ## html-made-by-python
 
