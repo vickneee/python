@@ -15,7 +15,7 @@ HeadAndLink = '''
     <link rel="stylesheet" href="DateAnalysis.css">
 </head>\n
 '''
-OutputFilePath = "DateAnalysis.html"
+OutputFilePath = "index.html"
 ofh = open(OutputFilePath, "w")
 
 d = datetime.datetime.now()
